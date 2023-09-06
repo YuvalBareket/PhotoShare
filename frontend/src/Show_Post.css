@@ -1,0 +1,10 @@
+.show_post_page{
+position: relative;
+display: flex;
+flex-direction: column;
+height: fit-content;
+
+}
+.space{
+min-height: 650PX;
+}

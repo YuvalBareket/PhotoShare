@@ -1,0 +1,75 @@
+.bubble_chat {
+    margin-right: 25px;
+    margin-left: 25px;
+    border-radius: 20px;
+    padding: 5px;
+    display: inline-block;
+    max-width: 80%;
+    text-shadow: none;
+min-width: 80px;
+}
+
+
+
+.recived_msg {
+    background-color: rgb(70, 173, 173);
+    text-align: right;
+
+    align-self: flex-end;
+
+}
+
+.send_msg {
+    background-color: rgb(63, 176, 107);
+    text-align: left;
+    align-self: flex-start;
+}
+
+/* .massege_seen{
+    background-color: blue;
+} */
+.time {
+    display: flex;
+    align-items: center;
+}
+
+.time_and_check {
+    display: flex;
+    gap: 5px;
+
+}
+
+.time_and_check img {
+    width: 20px;
+    height: 20px;
+}
+.massege_image{
+    width: 200px;
+    height: 200px;
+   border-radius: 15px;
+}
+.post_massege_user_data{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.private_post{
+    height: 160px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.lock_icon{
+    font-size: 50px;
+}

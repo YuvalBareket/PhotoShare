@@ -1,0 +1,94 @@
+.all_page{
+
+
+/* flex-direction: column; */
+height: 100vh;
+overflow-y: hidden;
+
+
+  
+}
+
+.large_profile_image_container{
+    position: absolute;
+    width: 100vw;
+    height: 110vh;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.797);
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    overflow: hidden;
+}
+.large_profile_image{
+    width: 50vw;
+    height: 50vw;
+    max-width: 50vh;
+    max-height: 50vh;
+    border-radius: 25vw;
+}
+.cancle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: white;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tweets_footer{
+
+z-index: 4;
+position: fixed;
+bottom: 0;
+height: 60px;
+width: 100vw;
+background-color: rgb(255, 255, 255);
+
+}
+.tweets_header{
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    background-color: white;
+    height: 80px;
+    width: 100%;
+
+}
+.tweets_main{
+ margin-top: 85px;
+
+
+}
+.send_post_container{
+ position: absolute;
+ width: 100vw;
+ height: 100%;
+ top: 0;
+overflow-y: hidden;
+}
+.send_post_cover{
+    position: fixed;
+background-color: rgba(0, 0, 0, 0.618);
+    z-index: 100;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+   
+}
+.send_post_container_footer{
+    width: 100vw;
+    height: 300px;
+    background-color: white;
+    position: fixed;
+    z-index: 110;
+    bottom: 0;
+    overflow: hidden;
+    margin-bottom: 0px;
+}

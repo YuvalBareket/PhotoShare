@@ -1,0 +1,37 @@
+.all_home{
+
+}
+.stories{
+  position: sticky;
+display: flex;
+  flex-direction: row;
+  width: fit-content;
+overflow-x: auto;
+padding: 10px;
+gap: 20px;
+
+
+
+}
+.stories::-webkit-scrollbar {
+    display: none;
+}
+.home_page{
+    overflow-x: hidden;
+    position: absolute;
+    width: 100vw;
+   overflow-y: auto;
+
+}
+.all_posts{
+  
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+
+}
+.home_post_container{
+
+}
+
+
