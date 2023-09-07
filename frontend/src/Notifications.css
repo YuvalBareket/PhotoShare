@@ -1,0 +1,49 @@
+.all_noti_page{
+    
+    display: grid;
+    grid-template-rows: 50px 10fr;
+  gap: 10px;
+  
+}
+.all_alerts{
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-height: 40vh;
+
+}
+.all_alerts h2{
+    text-align: center;
+}
+.new_follow{
+box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.523);
+padding: 10px;
+background-color:rgba(255, 0, 230, 0.492);
+}
+.new_follow:hover{
+       filter: brightness(120%);
+            transition: 0.2s ease-in-out;
+}
+.no_alerts{
+  font-size: 1.5rem;
+  margin: auto;
+  padding: 10px;
+}
+.see_more{
+  width: 100vw;
+align-items: center;
+justify-content: center;
+  display: flex;
+  gap: 5px;
+margin-bottom: 10px;
+}
+.see_more_icon{
+  font-size: 0.8rem;
+}
+.stoker_alerts{
+  background-color:rgba(255, 0, 230, 0.492) ;
+box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.523);
+  padding: 10px;
+  z-index: 2;
+
+}

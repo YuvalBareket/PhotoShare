@@ -1,0 +1,226 @@
+.post_container{
+
+   max-width: 600px;
+   margin: auto;
+  min-height: 500px;
+   max-height: 900px;
+   display: grid;
+   grid-template-rows: 50px 1fr 50px;
+   margin-bottom: 120px;
+
+}
+.show_comments{
+        /* margin-bottom: 340px; */
+}
+
+.post_header{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: white;
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.419);
+    z-index: 2;
+}
+.post_main {
+ 
+        box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.419);
+        position: relative;
+        background-color: black;
+        display: flex;
+           
+}
+.post_footer {
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.419);
+    z-index: 2;
+    height: fit-content;
+ padding-bottom: 5px;
+ 
+}
+
+        .post_user_data {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-weight: 600;
+   
+    
+        }
+    
+        .post_user_image_container {
+            width: 40px;
+            height: 40px;
+            border-radius: 50px;
+           
+        }
+    
+        .post_profile_user_image {
+            width: 40px;
+            height: 40px;
+            border-radius: 50px;
+        }
+        .post_main_image{
+            height: auto;
+            width:100%;
+            max-height: 600px;
+            margin: auto;
+      
+        }
+        .post_cover{
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.703);
+          position: absolute;
+          z-index: 2;
+          top: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+    
+        }
+        .like{color: rgb(201, 49, 49);
+            width: 100px;
+            height: 100px;
+        }
+        .unlike{color: rgb(201, 49, 49);
+            width: 100px;
+            height: 100px;}
+            .comments{
+                padding: 20px;
+            }
+.post_icones{
+    display: flex;
+    padding: 10px;
+    gap: 30px;
+}
+.post_icon{
+    font-size: 2rem;
+}
+.post_liked{
+   color:rgb(201, 49, 49) ;
+  
+}
+.comments_header{
+    padding: 20px;
+    display: flex;
+    height: 50px;
+    align-items: center;
+
+}
+.comments_header span{
+    text-align: center;
+    width: 100%;
+    font-weight: 600;
+    font-size: 1.2rem;
+
+}
+ .comments{
+   height: 100%;
+position: relative;
+   overflow-y: scroll;
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+padding-bottom: 120px;
+margin: auto;
+align-items: center;
+
+}
+.comments_container{
+position: fixed;
+background-color: white;
+width: 100vw;
+height: 90vh;
+bottom: 0;
+right: 0;
+z-index: 12;
+
+
+}
+.comments::-webkit-scrollbar {
+    display: none;
+}
+.add_comment{
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+    bottom:  0;
+    display: grid;
+grid-template-columns: 1fr 40px; 
+align-items: center;
+background-color: white;
+height: 50px;
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.419);
+}
+.add_comment textarea{
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding: 20px;
+    z-index: 12;
+}
+.add_comment textarea::-webkit-scrollbar {
+    display: none;
+}
+.send_comment_icon{
+    display: flex;
+    margin: auto;
+   
+   
+}
+.liked_by{
+    padding: 5px;
+}
+.short_dis{
+    padding: 5px;
+font-weight: 600;}
+.no_comments{
+    margin: auto;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.page_cover{
+    z-index: 5;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.567);
+    top: 0;
+  right: 0;
+  display: flex;
+}
+.delete_post{
+    
+    width: 100%;
+    text-align: end;
+    padding: 10px;
+}
+.delete_page_cover{
+    position: fixed;
+   height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.593);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+
+}
+.delete_massege{
+    background-color: white;
+    width: 320px;
+    height: 95px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    
+}
+.delete_massege button{
+    border: none;
+    background-color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+   margin-left: 15px;
+}
