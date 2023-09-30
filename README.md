@@ -3,7 +3,7 @@
 
 The project was developed from scratch inspired by common social networks (Instagram, WhatsApp, Facebook, Twitter).
 
-The project was developed using css, js, SQL, html, React and Node.js
+The project was developed using css, js, SQL, html, React and Node.js .
 
   * [INFO VIDEO](https://drive.google.com/file/d/13YPa_8sIRj8LsBTuurUrI8h3ET0yDpNv/view?usp=drivesdk)
 
