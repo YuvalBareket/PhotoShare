@@ -1,5 +1,5 @@
 # PhotoShare
-social network site for real-time photo sharing, chatting and much more.
+**A social network site for real-time photo sharing, chatting and much more**
 
 [INFO VIDEO #1 (most features)](https://drive.google.com/file/d/13WM_altNdKTLVfIZ54nDLx8eVOYvKMJo/view?usp=drivesdk)
 
