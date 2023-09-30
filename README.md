@@ -6,4 +6,5 @@
 [INFO Document](https://github.com/YuvalBareket/PhotoShare.com/blob/main/Information%20Documents/PhotoShare%20INFO%20document.pdf)
 
 The project was developed from scratch inspired by common social networks (Instagram, WhatsApp, Facebook, Twitter).
+
 The project was developed using css, js, SQL, html, React and Node.js
