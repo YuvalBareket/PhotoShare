@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/PhotoShare.com/static/css/main.de7ab2e1.css",
+    "main.js": "/PhotoShare.com/static/js/main.0f1181d0.js",
+    "static/media/image@3x.png": "/PhotoShare.com/static/media/image@3x.da5c173e7c416ac7c7b7.png",
+    "index.html": "/PhotoShare.com/index.html",
+    "main.de7ab2e1.css.map": "/PhotoShare.com/static/css/main.de7ab2e1.css.map",
+    "main.0f1181d0.js.map": "/PhotoShare.com/static/js/main.0f1181d0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de7ab2e1.css",
+    "static/js/main.0f1181d0.js"
+  ]
+}
